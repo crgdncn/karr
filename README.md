@@ -1,14 +1,22 @@
 # setup
 
+PHP 8 / Laravel 9
+
+[I used PHP 8.1]
+
 This app uses sqlite, run these commands
 
 touch database/database.sqlite
 
 touch database/test.sqlite
 
+cp .env.example.env
+
 # Install packages
 
 composer install
+
+php artisan key:generate
 
 # migrations
 
