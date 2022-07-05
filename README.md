@@ -18,6 +18,8 @@ composer install
 
 php artisan key:generate
 
+npm install
+
 # migrations
 
 php artisan migrate
